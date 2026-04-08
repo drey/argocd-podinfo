@@ -8,7 +8,7 @@ backends: []
 image:
   repository: ghcr.io/drey/argocd-podinfo
   tag: 10.0.2
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
   pullSecrets:
   - name: private-registry-creds
 ui:
