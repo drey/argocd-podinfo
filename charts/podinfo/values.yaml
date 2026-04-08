@@ -7,7 +7,7 @@ backend: #http://backend-podinfo:9898/echo
 backends: []
 image:
   repository: ghcr.io/drey/argocd-podinfo
-  tag: 10.0.0
+  tag: 10.0.1
   pullPolicy: IfNotPresent
   pullSecrets: []
 ui:
