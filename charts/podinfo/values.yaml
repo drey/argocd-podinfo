@@ -10,7 +10,7 @@ image:
   tag: 10.0.2
   pullPolicy: IfNotPresent
   pullSecrets:
-  - private-registry-creds
+  - name: private-registry-creds
 ui:
   color: "#34577c"
   message: ""
