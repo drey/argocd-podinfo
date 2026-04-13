@@ -6,8 +6,8 @@ host: #0.0.0.0
 backend: #http://backend-podinfo:9898/echo
 backends: []
 image:
-  repository: ghcr.io/drey/argocd-podinfo
-  tag: 10.0.3
+  repository: gitea.127.0.0.1.sslip.io/e2e/podinfo
+  tag: 6.11.2
   pullPolicy: Always
   pullSecrets:
   - name: private-registry-creds
